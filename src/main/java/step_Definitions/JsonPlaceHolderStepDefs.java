@@ -72,4 +72,12 @@ public class JsonPlaceHolderStepDefs extends BaseSteps {
         assertThat(responseForPostComment.body().jsonPath().get("body"), is(equalTo(body)));
     }
 
+    @When("I create a new comment with the following details {string},{string}, {string} and {string} for Users")
+    public void iCreateANewCommentWithTheFollowingDetailsAndForUsers(String arg0, String arg1, String arg2, String arg3) {
+        
+    }
+
+    @Then("i should get the correct {string},{string}, {string} and {string} returned and with status code of {int}  for users")
+    public void iShouldGetTheCorrectAndReturnedAndWithStatusCodeOfForUsers(String arg0, String arg1, String arg2, String arg3, int arg4) {
+    }
 }
