@@ -1,0 +1,4 @@
+# ignore target
+/target/
+*.idea
+marchAutomato.iml
